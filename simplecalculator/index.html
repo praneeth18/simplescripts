@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/build/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300'
+      rel='stylesheet' type='text/css'>
+    <title>Simple Calculator</title>
+  </head>
+
+  <body>
+    <div class="simple-calculator">
+
+      <input type="text" class="simple-calculator-result" value="" disabled />
+      <div class="key-buttons">
+
+        <button type="button" class="symbol" value="+" data-key="43">+</button>
+        <button type="button" class="symbol" value="-" data-key="45">-</button>
+        <button type="button" class="symbol" value="*" data-key="42">&times;</button>
+        <button type="button" class="symbol" value="/" data-key="47">&divide;</button>
+        <button type="button" value="7" data-key="55">7</button>
+        <button type="button" value="8" data-key="56">8</button>
+        <button type="button" value="9" data-key="57">9</button>
+
+
+        <button type="button" value="4" data-key="52">4</button>
+        <button type="button" value="5" data-key="53">5</button>
+        <button type="button" value="6" data-key="54">6</button>
+
+
+        <button type="button" value="1" data-key="49">1</button>
+        <button type="button" value="2" data-key="50">2</button>
+        <button type="button" value="3" data-key="51">3</button>
+
+
+        <button type="button" value="0" data-key="48">0</button>
+        <button type="button" class="decimal" data-key="46" value=".">.</button>
+        <button type="button" class="reset" value="reset">AC</button>
+        <button type="button" class="equal-to symbol" data-key="61" value="=">=</button>
+      </div>
+    </div>
+    <script src="/build/js/calculator.js"></script>
+
+  </body>
+</html>
